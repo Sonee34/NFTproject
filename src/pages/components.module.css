@@ -1,0 +1,93 @@
+.maxWidthOrHeight2x28pt {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maxWidthOrHeight2x28pt,
+.rectangle1,
+.targetSize2x25ptX25pt {
+  background-color: var(--color-tomato-200);
+  opacity: 0.3;
+  mix-blend-mode: normal;
+}
+.rectangle1 {
+  position: absolute;
+  height: 89.29%;
+  width: 89.29%;
+  top: 5.36%;
+  right: 5.36%;
+  bottom: 5.36%;
+  left: 5.36%;
+}
+.targetSize2x25ptX25pt {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.sizeGuide {
+  position: absolute;
+  height: 63.64%;
+  width: 63.64%;
+  top: 18.18%;
+  right: 18.18%;
+  bottom: 18.18%;
+  left: 18.18%;
+  display: none;
+}
+.symbol {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.symbol2 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: -0.5px;
+  letter-spacing: 0.03px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.components,
+.logos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.logos {
+  flex-direction: row;
+  gap: 20px;
+}
+.components {
+  position: relative;
+  border-radius: var(--br-xl);
+  background: radial-gradient(50% 50%at 50% 50%, #584175, #422f53);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-3xl);
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--default-bold-title2-size);
+  color: var(--label-color-dark-primary);
+  font-family: var(--default-bold-headline);
+}

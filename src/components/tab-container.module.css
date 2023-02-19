@@ -1,0 +1,135 @@
+.maxWidthOrHeight2x28pt {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.maxWidthOrHeight2x28pt,
+.rectangle1,
+.targetSize2x25ptX25pt {
+  background-color: var(--color-tomato-200);
+  opacity: 0.3;
+  mix-blend-mode: normal;
+}
+.rectangle1 {
+  position: absolute;
+  height: 89.29%;
+  width: 89.29%;
+  top: 5.36%;
+  right: 5.36%;
+  bottom: 5.36%;
+  left: 5.36%;
+}
+.targetSize2x25ptX25pt {
+  position: relative;
+  width: 28px;
+  height: 28px;
+}
+.sizeGuide {
+  position: absolute;
+  height: 63.64%;
+  width: 63.64%;
+  top: 18.18%;
+  right: 18.18%;
+  bottom: 18.18%;
+  left: 18.18%;
+  display: none;
+}
+.symbol {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  letter-spacing: 0.02px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home {
+  position: relative;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.symbol2,
+.symbol3 {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: -0.5px;
+  letter-spacing: 0.03px;
+  align-items: center;
+  justify-content: center;
+}
+.symbol2 {
+  display: none;
+}
+.symbol3 {
+  display: flex;
+}
+.bar,
+.tabbar1 {
+  display: flex;
+  align-items: flex-start;
+}
+.bar {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tabbar1 {
+  position: absolute;
+  width: 100%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-xl) var(--br-xl) 0 0;
+  background-color: var(--color-gray-300);
+  box-shadow: 0 1px 0.5px rgba(255, 255, 255, 0.5) inset,
+    0-5px 30px rgba(41, 39, 130, 0.1);
+  backdrop-filter: blur(80px);
+  height: 100px;
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-md) var(--padding-2xl);
+  box-sizing: border-box;
+  justify-content: flex-start;
+}
+.mintedButtonChild {
+  position: absolute;
+  top: -43.45px;
+  left: -34.77px;
+  border-radius: var(--br-xs);
+  width: 147.55px;
+  height: 154.91px;
+}
+.minted {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+  width: 44px;
+  height: 44px;
+}
+.mintedButton {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 39px);
+  width: 78px;
+  height: 78px;
+  font-size: var(--font-size-3xl);
+}
+.tabbar {
+  position: relative;
+  width: 390px;
+  height: 136px;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: var(--default-bold-title2-size);
+  color: var(--label-color-dark-primary);
+  font-family: var(--default-bold-headline);
+}
